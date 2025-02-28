@@ -12,16 +12,6 @@ use App\Http\Controllers\ExamTypeController;
 use App\Http\Controllers\ExamController;
 use App\Http\Controllers\ExamResultController;
 
-/*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
-*/
 Route::apiResource('classrooms', ClassroomController::class);
 Route::apiResource('grades', GradeController::class);
 Route::apiResource('courses', CourseController::class);
