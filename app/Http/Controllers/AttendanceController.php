@@ -15,7 +15,7 @@ class AttendanceController extends Controller
     {
         return response()->json([
             'success' => true,
-            'message' => 'Success! Item controller is working properly.',
+            'message' => 'Success! Submitted by: Andreanne Monique D. Gorres, IT3R3',
             'timestamp' => now()
         ]);
     }
